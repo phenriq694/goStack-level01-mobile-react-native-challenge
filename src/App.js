@@ -11,7 +11,6 @@ import {
 } from "react-native";
 
 import api from './services/api';
-import parseStringAsArray from './utils/parseStringAsArray';
 
 export default function App() {
   const [repositories, setRepositories] = useState([]);
